@@ -1,0 +1,25 @@
+version: '3'
+services:
+  database:
+    image: mysql:latest
+    command: "--innodb_use_native_aio=0"
+    volumes:
+      - "./volumes/db:/var/lib/mysql:rw"
+      - "./migrations:/docker-entrypoint-initdb.d"
+    environment:
+      MYSQL_USER: user
+      MYSQL_ROOT_PASSWORD: password
+      MYSQL_DATABASE: car_rental
+      MYSQL_PASSWORD: password
+
+    ports:
+      - "4000:3306"
+
+
+  web-server:
+    build: .
+    ports:
+      - "8888:8080"
+    restart: always
+    depends_on:
+      - database

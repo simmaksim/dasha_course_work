@@ -1,0 +1,11 @@
+
+g	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8éÓÚ¡ò0
+b
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(èÇÍó8±¬Ê¡ò0
+g
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(¼è°®ûÿÿÿÿ8±¬Ê¡ò0
+O
+java:S4925"-Remove this "Class.forName()", it is useless.(¹µÖÁüÿÿÿÿ8·Ú¡ò0
+X
+java:S6437"6Revoke and change this password, as it is compromised.(ª›¨”øÿÿÿÿ8³¬Ê¡ò0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(Æ’ôˆüÿÿÿÿ8´¬Ê¡ò0

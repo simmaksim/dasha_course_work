@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="CarRental:war" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2c621a11-5bf6-4d10-a476-0cbc70625185" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="car_rental@192.168.99.100" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="car_rental@192.168.99.100" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="car_rental@192.168.99.100" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="car_rental: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="car_rental@192.168.99.100" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="car_rental: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="cars: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="1bAEOfRpPB35r1FdC4OpCo7pjmu" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/eugene_gromadko/Desktop/a2/course_work/course_work/CarRental",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Work\Projects\.Freelance\CarRental" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Docker.Deploy">
+    <configuration name="Launch" type="ShConfigurationType">
+      <option name="SCRIPT_TEXT" value="" />
+      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/launch.bat" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
+      <option name="INTERPRETER_PATH" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="EXECUTE_IN_TERMINAL" value="true" />
+      <option name="EXECUTE_SCRIPT_FILE" value="true" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="Deploy" type="docker-deploy" factoryName="docker-compose.yml" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="commandLineOptions" value="--build" />
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2">
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="CarRental:war" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml.web-server: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker3">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="web-server" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Docker.Deploy" />
+      <item itemvalue="Docker.docker-compose.yml.web-server: Compose Deployment" />
+      <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
+      <item itemvalue="Shell Script.Launch" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.docker-compose.yml.web-server: Compose Deployment" />
+        <item itemvalue="Docker.docker-compose.yml.web-server: Compose Deployment" />
+        <item itemvalue="Docker.docker-compose.yml.web-server: Compose Deployment" />
+        <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Docker" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Docker" type="9fbbdea:ServiceModel$ServiceNode" />
+                <item name="Compose: docker-compose.yml" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Docker" type="9fbbdea:ServiceModel$ServiceNode" />
+                <item name="Compose: docker-compose.yml" type="9fbbdea:ServiceModel$ServiceNode" />
+                <item name="web-server" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2c621a11-5bf6-4d10-a476-0cbc70625185" name="Default Changelist" comment="" />
+      <created>1588066466400</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588066466400</updated>
+      <workItem from="1588066469765" duration="3056000" />
+      <workItem from="1588108040783" duration="1456000" />
+      <workItem from="1588189876592" duration="4155000" />
+      <workItem from="1588346762772" duration="1925000" />
+      <workItem from="1588363621259" duration="168000" />
+      <workItem from="1588669033350" duration="34077000" />
+      <workItem from="1588761947899" duration="810000" />
+      <workItem from="1588778905340" duration="576000" />
+      <workItem from="1588831915314" duration="1059000" />
+      <workItem from="1678640504872" duration="3076000" />
+      <workItem from="1678658008777" duration="365000" />
+      <workItem from="1678658837780" duration="1503000" />
+      <workItem from="1678660431858" duration="120000" />
+      <workItem from="1678660574154" duration="464000" />
+      <workItem from="1678661056509" duration="125000" />
+      <workItem from="1678661200070" duration="845000" />
+      <workItem from="1678664055892" duration="285000" />
+      <workItem from="1678746128071" duration="506000" />
+      <workItem from="1678816233886" duration="1298000" />
+      <workItem from="1678881706920" duration="358000" />
+      <workItem from="1678929761838" duration="6000" />
+      <workItem from="1679508309065" duration="1591000" />
+      <workItem from="1679523130180" duration="2718000" />
+      <workItem from="1679578438881" duration="22000" />
+      <workItem from="1679609992128" duration="804000" />
+      <workItem from="1679611896102" duration="2341000" />
+      <workItem from="1679664549008" duration="2914000" />
+      <workItem from="1679693677007" duration="6988000" />
+      <workItem from="1679784207509" duration="3162000" />
+      <workItem from="1679936915301" duration="3339000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
